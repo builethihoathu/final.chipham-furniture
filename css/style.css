@@ -39,3 +39,20 @@ footer ul{margin: 0; padding: 0; list-style: none; display: flex; flex-direction
 footer ul li a{padding: 10px;display: block; color:#ECECEC }
 .bg-xanh {background-color: #AC8047; text-align: center}
 .text-den {color: black}
+
+#slider .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slider .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px;}
+
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px;color: #ffffff
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#582F00;
+      text-decoration: none; }
